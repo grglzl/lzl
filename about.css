@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(pink, skyblue, green);
+    background-image: url(cir.jpg);
     color: #fff;
     line-height: 1.6;
 }
@@ -66,6 +66,7 @@ header ul li a:hover {
     height: 100vh;
     padding: 20px;
     margin-top: 100px;
+
 }
 
 .about-container {
@@ -78,12 +79,13 @@ header ul li a:hover {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
     overflow: hidden;
     width: 80%;
+
 }
 
 .about-content {
     flex: 1;
     padding: 40px;
-    color: #e0e0e0;
+    color: #be3131;
 }
 
 .about-title {
@@ -91,12 +93,23 @@ header ul li a:hover {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 20px;
+    transform: translateY(-30px);
 }
 
 .about-description {
     font-size: 1rem;
     line-height: 1.8;
-    color: white;
+    color: rgb(26, 6, 3);
+    background: linear-gradient(to bottom, #ff4b5c, yellow,green);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    box-sizing: border-box;
+    text-align: justify;
+    transform: translateY(-30px);
+
 }
 
 .about-images {
@@ -104,7 +117,6 @@ header ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:transparent;
     height: 80%;
 }
 
@@ -115,7 +127,6 @@ header ul li a:hover {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-
 }
 .image-container img {
     width: 100%;
